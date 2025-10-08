@@ -1,0 +1,163 @@
+/**
+ * Element Plus 主题色自定义
+ * 使用绿色 #36D399 作为主题色
+ */
+
+/* 覆盖Element Plus的CSS变量 */
+:root {
+  /* 主色调 - 绿色 */
+  --el-color-primary: #36d399;
+  --el-color-primary-light-3: #62dea9;
+  --el-color-primary-light-5: #8ce9bd;
+  --el-color-primary-light-7: #b5f1d1;
+  --el-color-primary-light-8: #cff6e0;
+  --el-color-primary-light-9: #e9fbf2;
+  --el-color-primary-dark-2: #2db788;
+
+  /* 成功色 - 同样使用绿色 */
+  --el-color-success: #36d399;
+  --el-color-success-light-3: #62dea9;
+  --el-color-success-light-5: #8ce9bd;
+  --el-color-success-light-7: #b5f1d1;
+  --el-color-success-light-8: #cff6e0;
+  --el-color-success-light-9: #e9fbf2;
+  --el-color-success-dark-2: #2db788;
+
+  /* 其他颜色保持Element Plus默认 */
+  --el-color-warning: #e6a23c;
+  --el-color-danger: #f56c6c;
+  --el-color-error: #f56c6c;
+  --el-color-info: #909399;
+
+  /* 文本颜色 */
+  --el-text-color-primary: #333333;
+  --el-text-color-regular: #666666;
+  --el-text-color-secondary: #909399;
+  --el-text-color-placeholder: #c0c4cc;
+
+  /* 边框颜色 */
+  --el-border-color: #dcdfe6;
+  --el-border-color-light: #e6e8eb;
+  --el-border-color-lighter: #eeeeee;
+  --el-border-color-extra-light: #f5f7fa;
+
+  /* 背景颜色 */
+  --el-bg-color: #ffffff;
+  --el-bg-color-page: #f0f2f5;
+  --el-bg-color-overlay: #ffffff;
+
+  /* 填充颜色 */
+  --el-fill-color-blank: #ffffff;
+  --el-fill-color: #f5f7fa;
+  --el-fill-color-light: #fafafa;
+  --el-fill-color-lighter: #ffffff;
+  --el-fill-color-extra-light: #ffffff;
+  --el-fill-color-dark: #e6e8eb;
+  --el-fill-color-darker: #dcdfe6;
+
+  /* 字体配置 */
+  --el-font-family:
+    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+
+  /* 圆角 */
+  --el-border-radius-base: 4px;
+  --el-border-radius-small: 2px;
+  --el-border-radius-round: 20px;
+  --el-border-radius-circle: 100%;
+
+  /* 阴影 */
+  --el-box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
+  --el-box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  --el-box-shadow-dark: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* 按钮hover状态优化 */
+.el-button--primary:hover {
+  background-color: #2db788;
+  border-color: #2db788;
+}
+
+.el-button--primary:active {
+  background-color: #28a178;
+  border-color: #28a178;
+}
+
+/* 链接颜色 */
+.el-link.el-link--primary {
+  color: #36d399;
+}
+
+.el-link.el-link--primary:hover {
+  color: #2db788;
+}
+
+/* 加载loading颜色 */
+.el-loading-spinner .circular {
+  stroke: #36d399;
+}
+
+/* 开关组件 */
+.el-switch.is-checked .el-switch__core {
+  background-color: #36d399;
+  border-color: #36d399;
+}
+
+/* 单选框 */
+.el-radio__input.is-checked .el-radio__inner {
+  background-color: #36d399;
+  border-color: #36d399;
+}
+
+.el-radio__input.is-checked + .el-radio__label {
+  color: #36d399;
+}
+
+/* 复选框 */
+.el-checkbox__input.is-checked .el-checkbox__inner {
+  background-color: #36d399;
+  border-color: #36d399;
+}
+
+.el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #36d399;
+}
+
+/* 标签页 */
+.el-tabs__item.is-active {
+  color: #36d399;
+}
+
+.el-tabs__active-bar {
+  background-color: #36d399;
+}
+
+/* 步骤条 */
+.el-step__head.is-process {
+  color: #36d399;
+  border-color: #36d399;
+}
+
+.el-step__head.is-finish {
+  color: #36d399;
+  border-color: #36d399;
+}
+
+.el-step__title.is-process {
+  color: #36d399;
+}
+
+.el-step__title.is-finish {
+  color: #36d399;
+}
+
+/* 分页 */
+.el-pagination.is-background .el-pager li:not(.is-disabled).is-active {
+  background-color: #36d399;
+  color: #ffffff;
+}
+
+.el-pagination.is-background .el-pager li:not(.is-disabled):hover {
+  color: #36d399;
+}
